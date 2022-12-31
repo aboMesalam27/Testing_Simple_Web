@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_TestMavin_jar_1.0-SNAPSHOT">
+    <test name="AdminTabFunctionality"> 
+        <classes>  
+            <class name="com.mycompany.testmavin.TestMavinIT">
+                <methods>
+                    <include name="testLogin"/> 
+                    <include name="testOpenDrawer"/> 
+                    <include name="testTabs"/> 
+                    <include name="testOneItemPimAdd"/> 
+                    <include name="testSelectEmployeeStatusAndSearch"/> 
+                    <include name="testDeleteItem"/> 
+                    <include name="testSignOut"/> 
+                    
+                </methods>
+            </class>
+        </classes>  
+    </test>
+</suite>

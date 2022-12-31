@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.mycompany_TestMavin_jar_1.0-SNAPSHOT]" verbose="0">
+  <test name="AdminTabFunctionality(failed)">
+    <classes>
+      <class name="com.mycompany.testmavin.TestMavinIT">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+          <include name="testOneItemPimAdd"/>
+        </methods>
+      </class> <!-- com.mycompany.testmavin.TestMavinIT -->
+    </classes>
+  </test> <!-- AdminTabFunctionality(failed) -->
+</suite> <!-- Failed suite [com.mycompany_TestMavin_jar_1.0-SNAPSHOT] -->

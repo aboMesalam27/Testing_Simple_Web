@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="8931" started-at="2022-12-11T09:12:56Z" finished-at="2022-12-11T09:13:05Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="8931" started-at="2022-12-11T09:12:56Z" finished-at="2022-12-11T09:13:05Z">
+      <class name="com.mycompany.testmavin.TestMavinIT">
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:testSimple(com.mycompany.testmavin.TestMavinIT)]" name="testSimple" duration-ms="8827" started-at="2022-12-11T11:12:56Z" finished-at="2022-12-11T11:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+      </class> <!-- com.mycompany.testmavin.TestMavinIT -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

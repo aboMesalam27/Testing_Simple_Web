@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 86.884 s <<< FAILURE! - in TestSuite
+testOneItemPimAdd(com.mycompany.testmavin.TestMavinIT)  Time elapsed: 37.902 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+The data provider is trying to pass 17 parameters but the method com.mycompany.testmavin.TestMavinIT#testOneItemPimAdd takes 19 and TestNG is unable in inject a suitable object
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 17 out of bounds for length 17
+

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="navigator-link">
+              <span class="suite-name border-failed">com.mycompany_TestMavin_jar_1.0-SNAPSHOT</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="navigator-link ">
+                    <span>C:\Users\Abdel\Desktop\TaskTest\Testing_Task_31\TestMavin\src\test\java\com\mycompany\testmavin\NewTestNGSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="hide-methods failed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT"> (hide)</a> <!-- hide-methods failed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT -->
+                      <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="show-methods failed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT"> (show)</a> <!-- show-methods failed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT -->
+                    </span>
+                    <div class="method-list-content failed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" title="com.mycompany.testmavin.TestMavinIT" class="method navigator-link" hash-for-method="testLogin(https://opensource-demo.orangehrmlive.com/web/index.php/auth/login, username, Admin, password, admin...)">testLogin(https://opensource-demo.orangehrmlive.com/web/index.php/auth/login, username, Admin, password, admin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="hide-methods passed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT"> (hide)</a> <!-- hide-methods passed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT -->
+                      <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="show-methods passed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT"> (show)</a> <!-- show-methods passed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT -->
+                    </span>
+                    <div class="method-list-content passed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" title="com.mycompany.testmavin.TestMavinIT" class="method navigator-link" hash-for-method="testDeleteItem(#app &gt; div.oxd-layout &gt; div.oxd-layout-container &gt; div.oxd-layout-context &gt; div &gt; div.orangehrm-pape...)">testDeleteItem(#app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div.orangehrm-pape...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" title="com.mycompany.testmavin.TestMavinIT" class="method navigator-link" hash-for-method="testOneItemPimAdd(#app &gt; div.oxd-layout &gt; div.oxd-layout-navigation &gt; aside &gt; nav &gt; div.oxd-sidepanel-body &gt; ul &gt; li:n...)">testOneItemPimAdd(#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:n...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" title="com.mycompany.testmavin.TestMavinIT" class="method navigator-link" hash-for-method="testOpenDrawer(bi-chevron-left)">testOpenDrawer(bi-chevron-left)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" title="com.mycompany.testmavin.TestMavinIT" class="method navigator-link" hash-for-method="testSelectEmployeeStatusAndSearch(#app &gt; div.oxd-layout &gt; div.oxd-layout-navigation &gt; aside &gt; nav &gt; div.oxd-sidepanel-body &gt; ul &gt; li:n...)">testSelectEmployeeStatusAndSearch(#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:n...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" title="com.mycompany.testmavin.TestMavinIT" class="method navigator-link" hash-for-method="testSignOut(oxd-userdropdown-tab, //ul[@role=&#039;menu&#039;]/li[4])">testSignOut(oxd-userdropdown-tab, //ul[@role='menu']/li[4])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" title="com.mycompany.testmavin.TestMavinIT" class="method navigator-link" hash-for-method="testTabs(.oxd-main-menu-item[href=&#039;/web/index.php/admin/viewAdminModule&#039;], oxd-topbar-header-breadcrumb-level...)">testTabs(.oxd-main-menu-item[href='/web/index.php/admin/viewAdminModule'], oxd-topbar-header-breadcrumb-level...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="panel com.mycompany_TestMavin_jar_1.0-SNAPSHOT">
+          <div class="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mycompany.testmavin.TestMavinIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(https://opensource-demo.orangehrmlive.com/web/index.php/auth/login, username, Admin, password, admin...)">
+                  </a> <!-- testLogin(https://opensource-demo.orangehrmlive.com/web/index.php/auth/login, username, Admin, password, admin...) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(https://opensource-demo.orangehrmlive.com/web/index.php/auth/login, username, Admin, password, admin123, orangehrm-login-button, oxd-userdropdown-name, Paul Collings)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Paul Collings] but found [nino ranti]
+	at com.mycompany.testmavin.TestMavinIT.testLogin(TestMavinIT.java:49)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT-class-failed -->
+          <div class="suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mycompany.testmavin.TestMavinIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteItem(#app &gt; div.oxd-layout &gt; div.oxd-layout-container &gt; div.oxd-layout-context &gt; div &gt; div.orangehrm-pape...)">
+                  </a> <!-- testDeleteItem(#app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div.orangehrm-pape...) -->
+                  <span class="method-name">testDeleteItem</span>
+                  <span class="parameters">(#app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div.orangehrm-paper-container > div.orangehrm-container > div > div.oxd-table-body > div:nth-child(1) > div > div:nth-child(9) > div > button:nth-child(1), #app > div.oxd-overlay.oxd-overlay--flex.oxd-overlay--flex-centered > div > div > div > div.orangehrm-modal-footer > button.oxd-button.oxd-button--medium.oxd-button--label-danger.orangehrm-button-margin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneItemPimAdd(#app &gt; div.oxd-layout &gt; div.oxd-layout-navigation &gt; aside &gt; nav &gt; div.oxd-sidepanel-body &gt; ul &gt; li:n...)">
+                  </a> <!-- testOneItemPimAdd(#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:n...) -->
+                  <span class="method-name">testOneItemPimAdd</span>
+                  <span class="parameters">(#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(2) > a, #app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div.orangehrm-paper-container > div.orangehrm-header-container > button, #app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.orangehrm-employee-container > div.orangehrm-employee-form > div:nth-child(1) > div.oxd-grid-1.orangehrm-full-width-grid > div > div > div.--name-grouped-field > div:nth-child(1) > div:nth-child(2) > input, abdelrhman, #app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.orangehrm-employee-container > div.orangehrm-employee-form > div:nth-child(1) > div.oxd-grid-1.orangehrm-full-width-grid > div > div > div.--name-grouped-field > div:nth-child(2) > div:nth-child(2) > input, aboMesalam, #app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.orangehrm-employee-container > div.orangehrm-employee-form > div:nth-child(1) > div.oxd-grid-1.orangehrm-full-width-grid > div > div > div.--name-grouped-field > div:nth-child(3) > div:nth-child(2) > input, effat, #app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.orangehrm-employee-container > div.orangehrm-employee-form > div.oxd-form-row.user-form-header > div > label > span, #app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.orangehrm-employee-container > div.orangehrm-employee-form > div:nth-child(4) > div > div:nth-child(1) > div > div:nth-child(2) > input, ali Ahmedd accfl, #app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.orangehrm-employee-container > div.orangehrm-employee-form > div.oxd-form-row.user-password-row > div > div.oxd-grid-item.oxd-grid-item--gutters.user-password-cell > div > div:nth-child(2) > input, 123456@@@Qaa&*#02, #app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.orangehrm-employee-container > div.orangehrm-employee-form > div.oxd-form-row.user-password-row > div > div:nth-child(2) > div > div:nth-child(2) > input, 123456@@@Qaa&*#02, #app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.orangehrm-employee-container > div.orangehrm-employee-image > div > div:nth-child(2) > div > div > img, C:\Users\Abdel\Desktop\TaskTest\Testing_Task_31\4.jpg, Open, #app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.oxd-form-actions > button.oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOpenDrawer(bi-chevron-left)">
+                  </a> <!-- testOpenDrawer(bi-chevron-left) -->
+                  <span class="method-name">testOpenDrawer</span>
+                  <span class="parameters">(bi-chevron-left)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectEmployeeStatusAndSearch(#app &gt; div.oxd-layout &gt; div.oxd-layout-navigation &gt; aside &gt; nav &gt; div.oxd-sidepanel-body &gt; ul &gt; li:n...)">
+                  </a> <!-- testSelectEmployeeStatusAndSearch(#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:n...) -->
+                  <span class="method-name">testSelectEmployeeStatusAndSearch</span>
+                  <span class="parameters">(#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(2) > a, //*[@id="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[3]/div/div[2]/div/div/div[1], #app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div.oxd-table-filter > div.oxd-table-filter-area > form > div.oxd-form-actions > button.oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignOut(oxd-userdropdown-tab, //ul[@role=&#039;menu&#039;]/li[4])">
+                  </a> <!-- testSignOut(oxd-userdropdown-tab, //ul[@role='menu']/li[4]) -->
+                  <span class="method-name">testSignOut</span>
+                  <span class="parameters">(oxd-userdropdown-tab, //ul[@role='menu']/li[4])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTabs(.oxd-main-menu-item[href=&#039;/web/index.php/admin/viewAdminModule&#039;], oxd-topbar-header-breadcrumb-level...)">
+                  </a> <!-- testTabs(.oxd-main-menu-item[href='/web/index.php/admin/viewAdminModule'], oxd-topbar-header-breadcrumb-level...) -->
+                  <span class="method-name">testTabs</span>
+                  <span class="parameters">(.oxd-main-menu-item[href='/web/index.php/admin/viewAdminModule'], oxd-topbar-header-breadcrumb-level, User Management, .oxd-main-menu-item[href='/web/index.php/pim/viewPimModule'], oxd-topbar-header-breadcrumb-module, PIM, .oxd-main-menu-item[href='/web/index.php/leave/viewLeaveModule'], Leave, .oxd-main-menu-item[href='/web/index.php/time/viewTimeModule'], Time, .oxd-main-menu-item[href='/web/index.php/recruitment/viewRecruitmentModule'], Recruitment, .oxd-main-menu-item[href='/web/index.php/pim/viewMyDetails'], orangehrm-main-title, Personal Details, .oxd-main-menu-item[href='/web/index.php/performance/viewPerformanceModule'], Performance, .oxd-main-menu-item[href='/web/index.php/dashboard/index'], Dashboard, .oxd-main-menu-item[href='/web/index.php/directory/viewDirectory'], Directory, .oxd-main-menu-item[href='/web/index.php/maintenance/viewMaintenanceModule'], orangehrm-admin-access-title, Administrator Access, password, admin123, orangehrm-admin-access-button, .oxd-main-menu-item[href='/web/index.php/buzz/viewBuzz'], Buzz)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.mycompany_TestMavin_jar_1.0-SNAPSHOT-class-passed -->
+        </div> <!-- panel com.mycompany_TestMavin_jar_1.0-SNAPSHOT -->
+        <div panel-name="test-xml-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Abdel\Desktop\TaskTest\Testing_Task_31\TestMavin\src\test\java\com\mycompany\testmavin\NewTestNGSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;com.mycompany_TestMavin_jar_1.0-SNAPSHOT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;AdminTabFunctionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mycompany.testmavin.TestMavinIT&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testLogin&quot;/&gt;
+          &lt;include name=&quot;testOpenDrawer&quot;/&gt;
+          &lt;include name=&quot;testTabs&quot;/&gt;
+          &lt;include name=&quot;testOneItemPimAdd&quot;/&gt;
+          &lt;include name=&quot;testSelectEmployeeStatusAndSearch&quot;/&gt;
+          &lt;include name=&quot;testDeleteItem&quot;/&gt;
+          &lt;include name=&quot;testSignOut&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.mycompany.testmavin.TestMavinIT --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AdminTabFunctionality --&gt;
+&lt;/suite&gt; &lt;!-- com.mycompany_TestMavin_jar_1.0-SNAPSHOT --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.mycompany_TestMavin_jar_1.0-SNAPSHOT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AdminTabFunctionality (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.mycompany_TestMavin_jar_1.0-SNAPSHOT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.mycompany_TestMavin_jar_1.0-SNAPSHOT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.mycompany_TestMavin_jar_1.0-SNAPSHOT');
+function tableData_com.mycompany_TestMavin_jar_1.0-SNAPSHOT() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testTabs')
+data.setCell(0, 2, 'com.mycompany.testmavin.TestMavinIT')
+data.setCell(0, 3, 34266);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testOneItemPimAdd')
+data.setCell(1, 2, 'com.mycompany.testmavin.TestMavinIT')
+data.setCell(1, 3, 15763);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLogin')
+data.setCell(2, 2, 'com.mycompany.testmavin.TestMavinIT')
+data.setCell(2, 3, 11379);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDeleteItem')
+data.setCell(3, 2, 'com.mycompany.testmavin.TestMavinIT')
+data.setCell(3, 3, 10149);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSelectEmployeeStatusAndSearch')
+data.setCell(4, 2, 'com.mycompany.testmavin.TestMavinIT')
+data.setCell(4, 3, 9970);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSignOut')
+data.setCell(5, 2, 'com.mycompany.testmavin.TestMavinIT')
+data.setCell(5, 3, 5457);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testOpenDrawer')
+data.setCell(6, 2, 'com.mycompany.testmavin.TestMavinIT')
+data.setCell(6, 3, 4129);
+window.suiteTableData['com.mycompany_TestMavin_jar_1.0-SNAPSHOT']= { tableData: data, tableDiv: 'times-div-com.mycompany_TestMavin_jar_1.0-SNAPSHOT'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-com.mycompany_TestMavin_jar_1.0-SNAPSHOT">
+              </div> <!-- times-div-com.mycompany_TestMavin_jar_1.0-SNAPSHOT -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.mycompany_TestMavin_jar_1.0-SNAPSHOT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.mycompany_TestMavin_jar_1.0-SNAPSHOT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mycompany.testmavin.TestMavinIT</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(https://opensource-demo.orangehrmlive.com/web/index.php/auth/login, username, Admin, password, admin...)</span>
+                <span class="method-start">2435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOpenDrawer(bi-chevron-left)</span>
+                <span class="method-start">13824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTabs(.oxd-main-menu-item[href='/web/index.php/admin/viewAdminModule'], oxd-topbar-header-breadcrumb-level...)</span>
+                <span class="method-start">17953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOneItemPimAdd(#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:n...)</span>
+                <span class="method-start">52219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectEmployeeStatusAndSearch(#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:n...)</span>
+                <span class="method-start">67983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteItem(#app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div.orangehrm-pape...)</span>
+                <span class="method-start">77953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignOut(oxd-userdropdown-tab, //ul[@role='menu']/li[4])</span>
+                <span class="method-start">88102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">93559 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

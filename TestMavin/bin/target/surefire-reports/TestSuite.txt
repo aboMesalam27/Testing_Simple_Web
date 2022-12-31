@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 96.905 s <<< FAILURE! - in TestSuite
+testLogin(com.mycompany.testmavin.TestMavinIT)  Time elapsed: 11.388 s  <<< FAILURE!
+java.lang.AssertionError: expected [Paul Collings] but found [nino ranti]
+	at com.mycompany.testmavin.TestMavinIT.testLogin(TestMavinIT.java:49)
+
